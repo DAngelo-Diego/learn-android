@@ -5,7 +5,7 @@ import androidx.room.PrimaryKey
 import com.example.learnandroid.util.Constants.LANGUAGE_DATA_BASE_TABLE
 
 @Entity(tableName = LANGUAGE_DATA_BASE_TABLE)
-data class Language(
+data class Language (
     @PrimaryKey(autoGenerate = false)
     val id: Int,
     val title: String,
